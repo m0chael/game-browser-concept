@@ -59,7 +59,7 @@ export default function Navigation(props) {
         if (window.innerWidth <= MAX_WIDTH_FOR_SEARCH_PLACEHOLDER) {
             q(".search").setAttribute("placeholder", "Search...")
         } else {
-            q(".search").setAttribute("placeholder", "Search for games, tags, or friends...")
+            q(".search").setAttribute("placeholder", "Search for games, or tags...")
         }
     };
 
