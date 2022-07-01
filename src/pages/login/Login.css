@@ -1,0 +1,63 @@
+.login {
+    min-height: calc(100vh - var(--container-adjustment-height));
+    color:var(--font-color-dark);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top:var(--min-top-padding);
+}
+
+.login input {
+    border: none;
+    background-color: var(--background-light);
+    height: var(--search-height);
+    width: var(--search-width);
+    padding: 0;
+    text-indent: var(--search-text-indent);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    margin-bottom:5px;
+    
+}
+
+.login-label {
+    cursor: pointer;
+    background-color: var(--theme-colour-default);
+    color: var(--font-color-dark);
+    position: relative;
+    top: 0;
+    height: var(--search-height);
+    width: var(--search-button-width);
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    cursor: pointer;
+}
+.login-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:var(--min-margins);
+    background-color:var(--navigation-background);
+    padding:20px;
+    border-radius: var(--border-radius);
+
+}
+.login-link-container {
+    width:100%;
+}
+.login-link-container button {
+    width:100%;
+}
+@media screen and (max-width:1025px) {
+    .login input {
+        width: calc(100vw - 120px);
+        text-indent: 20px;
+    }
+    .login-label {
+        width: 100px;
+    }
+}

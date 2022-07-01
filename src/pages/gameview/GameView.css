@@ -1,0 +1,37 @@
+.game-view-container {
+    min-height: calc(100vh - var(--container-adjustment-height));
+    color:var(--font-color-default);
+}
+
+.videos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.video-grid-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-grid-header.sections-container{
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.videos-grid iframe {
+    width:400px;
+    height:300px;
+}
+
+.loader {
+    width:400px;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color-dark);
+}
+.loader.hide{
+    display: none;
+}

@@ -1,0 +1,13 @@
+.games {
+    min-height: calc(100vh - var(--container-adjustment-height));
+    color:var(--font-color-default)
+}
+
+.sections-container {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    flex-direction: row;
+    padding-top:var(--min-top-padding);
+    padding-bottom:var(--min-bottom-padding);
+}
